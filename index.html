@@ -18,29 +18,36 @@
     <div class="main-container">
         <header>
             <nav>
-                <a href="#" class="logo"><img src="./images/logo/Booki.png" alt="Logo de l'agence de voyage"></a>
-                <ul class="nav-links">
-                    <li><a href="#">Hébergements</a></li>
-                    <li><a href="#">Activité</a></li>
-                </ul>
+                <div class="bloc-logo">
+                    <a href="#" class="logo"><img src="./images/logo/Booki.png" alt="Logo de l'agence de voyage"></a>
+                </div>
+                <div class="bloc-menu">
+                    <ul class="nav-links">
+                        <li><a href="#">Hébergements</a></li>
+                        <li><a href="#">Activité</a></li>
+                    </ul>
+                </div>
             </nav>
-            <div>
+            <div class="header-content">
                 <h1 class="main-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p class="sub-title">En plein centre-ville ou en pleine nature</p>
                 <form class="search-form">
-                    <img id="localisation-icon" src="./images/icones/localisation-icon.png" alt="">
+                    <div id="localisation-icon"><img src="./images/icones/localisation-icon.png" alt=""></div>
                     <input type="text" class="search-input" placeholder="Localisation">
-                    <button class="search-btn" type="submit">Rechercher</button>
+                    <button class="search-btn" type="submit">
+                        <img src="./images/icones/icone-rechercher.png" alt="Icône de recherche" class="search-icon">
+                        <span class="text-rechercher">Rechercher</span>
+                    </button>
                 </form>
             </div>
             <div class="filters">
-                <div class="text-filter"><p>Filtres</p></div>
+                <div class="text-filter"><span class="text-gras">Filtres</span></div>
                 <div class="filters-container">
                     <ul class="filters-list">
-                        <li><a href="#"><img src="./images/icones/filter-economique-icon.png" alt="Icône pour le filtre Économique">Économique</a></li>
-                        <li><a href="#"><img src="./images/icones/filter-familial-icon.png" alt="Icône pour le filtre Familial">Familial</a></li>
-                        <li><a href="#"><img src="./images/icones/filter-romantique-icon.png" alt="Icône pour le filtre Romantique">Romantique</a></li>
-                        <li><a href="#"><img src="./images/icones/filter-nos-pepite-icon.png" alt="Icône pour le filtre Nos pépites">Nos pépites</a></li>
+                        <li><a href="#" class="text-gras"><img src="./images/icones/filter-economique-icon.png" alt="Icône pour le filtre Économique">Économique</a></li>
+                        <li><a href="#" class="text-gras"><img src="./images/icones/filter-familial-icon.png" alt="Icône pour le filtre Familial">Familial</a></li>
+                        <li><a href="#" class="text-gras"><img src="./images/icones/filter-romantique-icon.png" alt="Icône pour le filtre Romantique">Romantique</a></li>
+                        <li><a href="#" class="text-gras"><img src="./images/icones/filter-nos-pepite-icon.png" alt="Icône pour le filtre Nos pépites">Nos pépites</a></li>
                     </ul>
                 </div>
             </div>
@@ -75,11 +82,11 @@
                         </a>
                         <a href="#">
                             <article class="vertical-card">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image hotel du port">
+                                <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image hotel du port">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <h3 class="card-title">Hôtel Chez Amina</h3>
+                                        <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -94,11 +101,11 @@
                         </a>
                         <a href="#">
                             <article class="vertical-card">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image hotel du port">
+                                <img src="./images/hebergements/reisetopia.jpg" alt="Image hotel du port">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <h3 class="card-title">Hôtel Les mouettes</h3>
+                                        <p class="card-subtitle">Nuit à partir de 76<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -113,11 +120,11 @@
                         </a>
                         <a href="#">
                             <article class="vertical-card">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image hotel du port">
+                                <img src="./images/hebergements/annie-spratt.jpg" alt="Image hotel du port">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <h3 class="card-title">Hôtel de la mer</h3>
+                                        <p class="card-subtitle">Nuit à partir de 46<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -132,11 +139,11 @@
                         </a>
                         <a href="#">
                             <article class="vertical-card">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image hotel du port">
+                                <img src="./images/hebergements/marcus-loke.jpg" alt="Image hotel du port">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <h3 class="card-title">Auberge La Canebière</h3>
+                                        <p class="card-subtitle">Nuit à partir de 25<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -151,11 +158,11 @@
                         </a>
                         <a href="#">
                             <article class="vertical-card">
-                                <img src="./images/hebergements/fred-kleber.jpg" alt="Image hotel du port">
+                                <img src="./images/hebergements/nicate-lee.jpg" alt="Image hotel du port">
                                 <div class="card-content">
                                     <div class="card-txt">
-                                        <h3 class="card-title">Hôtel du port</h3>
-                                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                                        <h3 class="card-title">Auberge Le Panier</h3>
+                                        <p class="card-subtitle">Nuit à partir de 23<span class="euro">€</span></p>
                                     </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -248,31 +255,31 @@
                             <article class="activite-card">
                                 <img src="./images/activites/reno-laithienne.jpg" alt="Image port">
                                 <div class="activites-bloc-card-txt">
-                                  <h3 class="activites-card-title">Vieux-Port</h3>
+                                  <h3 class="card-title">Vieux-Port</h3>
                                 </div>
                             </article>
                         </a>
                         <a href="#">
                             <article class="activite-card">
-                                <img src="./images/activites/reno-laithienne.jpg" alt="Image port">
+                                <img src="./images/activites/paul-hermann.jpg" alt="Image port">
                                 <div class="activites-bloc-card-txt">
-                                  <h3 class="activites-card-title">Vieux-Port</h3>
+                                  <h3 class="card-title">Fort de Pomègues</h3>
                                 </div>
                             </article>
                         </a>
                         <a href="#">
                             <article class="activite-card">
-                                <img src="./images/activites/reno-laithienne.jpg" alt="Image port">
+                                <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image port">
                                 <div class="activites-bloc-card-txt">
-                                  <h3 class="activites-card-title">Vieux-Port</h3>
+                                  <h3 class="card-title">Parc national des Calanques</h3>
                                 </div>
                             </article>
                         </a>
                         <a href="#">
                             <article class="activite-card">
-                                <img src="./images/activites/reno-laithienne.jpg" alt="Image port">
+                                <img src="./images/activites/florian-wehde.jpg" alt="Image port">
                                 <div class="activites-bloc-card-txt">
-                                  <h3 class="activites-card-title">Vieux-Port</h3>
+                                  <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                                 </div>
                             </article>
                         </a>
