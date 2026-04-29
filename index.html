@@ -30,10 +30,15 @@
             </nav>
             <div class="header-content">
                 <h1 class="main-title">Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p class="sub-title">En plein centre-ville ou en pleine nature</p>
+                <h2 class="sub-title">En plein centre-ville ou en pleine nature</h2>
                 <form class="search-form">
-                    <div id="localisation-icon"><img src="./images/icones/localisation-icon.png" alt=""></div>
+                    <!-- div contenant l'image pour pouvoir faire la mise en forme du background de l'icone -->
+                    <div id="localisation-icon">
+                        <img src="./images/icones/localisation-icon.png" alt="">
+                    </div>
                     <input type="text" class="search-input" placeholder="Localisation">
+
+                    <!--img de l'icone recherche que j'ai mis par defaut invisible et qui sera mis visible en responsive mobile. Inversement pour le texte-->
                     <button class="search-btn" type="submit">
                         <img src="./images/icones/icone-rechercher.png" alt="Icône de recherche" class="search-icon">
                         <span class="text-rechercher">Rechercher</span>
@@ -288,7 +293,8 @@
             </div>
 
         </main>
-        <footer>
+    </div>
+    <footer>
             <div class="footer">
                 <div class="footer-bloc">
                     <h3>À propos</h3>
@@ -316,7 +322,6 @@
                 </div>
             </div>
         </footer>
-    </div>
 </body>
 
 </html>
